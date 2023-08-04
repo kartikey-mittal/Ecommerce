@@ -8,7 +8,7 @@ import {
 } from './counterSlice';
 
 
-export function Counter() {
+export function Order() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
 
@@ -16,7 +16,7 @@ export function Counter() {
   return (
     <div>
       <div>
-        h
+
       </div>
     </div>
   );
